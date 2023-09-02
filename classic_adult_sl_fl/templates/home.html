@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Enter all values</h1>
+<div>
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.wc.label}}{{form.wc}}
+        <br>
+        {{form.ms.label}}{{form.ms}}
+        <br>
+        {{form.oc.label}}{{form.oc}}
+        <br>
+        {{form.rel.label}}{{form.rel}}
+        <br>
+        {{form.ra.label}}{{form.ra}}
+        <br>
+        {{form.co.label}}{{form.co}}
+        <br>
+        {{form.age.label}}{{form.age}}
+        <br>
+        {{form.fnlwgt.label}}{{form.fnlwgt}}
+        <br>
+        {{form.education_num.label}}{{form.education_num}}
+        <br>
+        {{form.sex.label}}{{form.sex}}
+        <br>
+        {{form.capital_gain.label}}{{form.capital_gain}}
+        <br>
+        {{form.capital_loss.label}}{{form.capital_loss}}
+        <br>
+        {{form.hours_per_week.label}}{{form.hours_per_week}}
+        <br>
+        {{form.submit()}}
+    </form>
+</div>
+{% endblock %}
