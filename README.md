@@ -1,2 +1,5 @@
 # Project--Classic-adult-wage-class-prediction
-Using XGBoost. Streamlit. Flask
+Performed EDA.
+Pre-processed the data for model building.
+Model used: XGBoost.
+Deployed on two platforms: Streamlit & Flask.
